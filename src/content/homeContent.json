@@ -1,0 +1,59 @@
+{
+    "hero": {
+      "title": "Empower Your Daily Learning",
+      "subtitle": "Bite-sized content to help you grow in tech, business, design, and more.",
+      "buttonText": "Get Started"
+    },
+    "about": {
+      "title": "Why SkillInNoTime?",
+      "description": "We believe learning should be accessible, fun, and flexible. That's why we deliver micro-lessons, quizzes, and challenges you can complete in just a few minutes each day. Whether you're looking to improve your technical skills, learn the latest business strategies, or explore creative design concepts, SkillInNoTime makes it easy and enjoyable to learn every day, without overwhelming you. Get started today and see how just a few minutes each day can lead to big changes in your personal and professional life!"
+    },
+    "features": [
+      {
+        "title": "Daily Seeds",
+        "description": "A quick article, a short video, or a mini-quiz to keep you sharp. Whether you have 5 minutes or 30, our bite-sized lessons help you stay updated and motivated. New skill seeds delivered daily keep your mind engaged and growing."
+      },
+      {
+        "title": "Track Progress",
+        "description": "Earn points, unlock badges, and see your improvements over time. Track your learning journey with detailed insights into your progress. Set goals, maintain streaks, and challenge yourself to become better every day."
+      },
+      {
+        "title": "Community",
+        "description": "Connect with peers, share insights, and discover new learning paths. Join a vibrant community of like-minded learners, exchange ideas, and collaborate on challenges. You’ll never feel alone in your learning journey!"
+      },
+      {
+        "title": "Micro-Courses",
+        "description": "Deep dive into specific topics with our expertly curated micro-courses. Focused on delivering value, each course is designed to teach you new skills in under an hour. Gain practical knowledge that you can immediately apply to real-world scenarios."
+      },
+      {
+        "title": "Interactive Quizzes",
+        "description": "Test your knowledge with fun, interactive quizzes after completing lessons. Get immediate feedback to reinforce what you’ve learned and track your performance over time."
+      },
+      {
+        "title": "Gamification",
+        "description": "Learning has never been this fun! Earn rewards, unlock achievements, and compete with others to keep your motivation high. With gamification built into our platform, learning feels like a game, not a chore."
+      },
+      {
+        "title": "Personalized Learning Path",
+        "description": "Create your own learning path based on your interests and goals. Whether you want to focus on web development, graphic design, or business strategies, SkillInNoTime tailors the learning experience to your needs, guiding you to the skills that matter most to you."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "John Doe",
+        "role": "Software Developer",
+        "quote": "SkillInNoTime has completely transformed the way I learn. With daily micro-lessons, I can easily fit learning into my busy schedule. I've seen massive improvements in my skills!"
+      },
+      {
+        "name": "Jane Smith",
+        "role": "Entrepreneur",
+        "quote": "As a business owner, I need to stay on top of trends. SkillInNoTime's bite-sized content helps me stay ahead, even when I don't have much time."
+      }
+    ],
+    "callToAction": {
+      "title": "Ready to Level Up?",
+      "description": "Join SkillInNoTime today and start learning skills that will boost your career, improve your personal growth, and help you stay ahead of the curve. It's fast, it's fun, and it's free to get started.",
+      "buttonText": "Get Started Now"
+    }
+  }
+  
