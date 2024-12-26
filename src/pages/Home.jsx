@@ -1,8 +1,7 @@
 import React from 'react';
-//import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-//import SignUp from './SignUp';
 import homeContent from '../content/homeContent.json';
 
 const Home = () => {
@@ -14,9 +13,11 @@ const Home = () => {
       <header className="flex flex-col items-center justify-center text-center py-10 px-4">
         <h1 className="text-5xl font-bold mb-4">{homeContent.hero.title}</h1>
         <p className="text-lg mb-8">{homeContent.hero.subtitle}</p>
-        <button className="px-6 py-3 bg-blue-200 hover:bg-blue-300 dark:bg-gray-700 dark:hover:bg-gray-600 rounded shadow-md">
-          Get Started        </button>
-
+        <Link to="/sign-up">
+          <button className="px-6 py-3 bg-blue-200 hover:bg-blue-300 dark:bg-gray-700 dark:hover:bg-gray-600 rounded shadow-md">
+            Get Started
+          </button>
+        </Link>
       </header>
 
       {/* About / Content Section */}
@@ -36,7 +37,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Footer with Socials & Contact */}
       <Footer />
     </div>
   );

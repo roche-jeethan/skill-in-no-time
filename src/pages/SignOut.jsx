@@ -6,10 +6,15 @@ const SignOut = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Perform sign-out logic here
-    // For example, clear user session, tokens, etc.
-    // After sign-out, redirect to the home page
-    navigate('/');
+    const confirmSignOut = window.confirm('Are you sure you want to sign out?');
+    if (confirmSignOut) {
+      // Perform sign-out logic here
+      localStorage.removeItem('userEmail');
+      localStorage.removeItem('userProfile');
+      navigate('/');
+    } else {
+      navigate('/profile');
+    }
   }, [navigate]);
 
   return (
