@@ -1,0 +1,30 @@
+{
+  "title": "Today's Seed",
+  "seeds": [
+    {
+      "id": 1,
+      "title": "Quick Tech Tip",
+      "description": "Learn a tiny tidbit about technology each day. Today's insight helps you master efficiency in React hooks.",
+      "content": "Here is the full content of the daily seed. This is where you can provide detailed information, videos, or any other content that takes about 5 minutes to consume."
+    },
+    {
+      "id": 2,
+      "title": "Business Insight",
+      "description": "Today's business insight helps you understand market trends.",
+      "content": "Here is the full content of the business insight. This is where you can provide detailed information, videos, or any other content that takes about 5 minutes to consume."
+    },
+    {
+      "id": 3,
+      "title": "Health Tip",
+      "description": "Today's health tip helps you understand the importance of hydration.",
+      "content": "Here is the full content of the health tip. This is where you can provide detailed information, videos, or any other content that takes about 5 minutes to consume."
+    },
+    {
+      "id": 4,
+      "title": "Daily Inspiration",
+      "description": "Today's inspiration helps you stay motivated.",
+      "content": "Here is the full content of the daily inspiration. This is where you can provide detailed information, videos, or any other content that takes about 5 minutes to consume."
+    }
+  ],
+  "buttonText": "Read  more..."
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
         </p>
         <div className="flex space-x-4 mb-4 md:mb-0">
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 dark:text-pale-orange dark:hover:text-white">
-            <FaTwitter size={24} />
+            <FaXTwitter size={24} />
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 dark:text-pale-orange dark:hover:text-white">
             <FaFacebook size={24} />
