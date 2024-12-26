@@ -15,8 +15,8 @@ const Home = () => {
         <h1 className="text-5xl font-bold mb-4">{homeContent.hero.title}</h1>
         <p className="text-lg mb-8">{homeContent.hero.subtitle}</p>
         <button className="px-6 py-3 bg-blue-200 hover:bg-blue-300 dark:bg-gray-700 dark:hover:bg-gray-600 rounded shadow-md">
-          Get Started
-        </button>
+          Get Started        </button>
+
       </header>
 
       {/* About / Content Section */}
