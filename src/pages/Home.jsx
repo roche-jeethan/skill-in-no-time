@@ -1,6 +1,8 @@
 import React from 'react';
+//import {Link} from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+//import SignUp from './SignUp';
 import homeContent from '../content/homeContent.json';
 
 const Home = () => {
@@ -13,7 +15,7 @@ const Home = () => {
         <h1 className="text-5xl font-bold mb-4">{homeContent.hero.title}</h1>
         <p className="text-lg mb-8">{homeContent.hero.subtitle}</p>
         <button className="px-6 py-3 bg-blue-200 hover:bg-blue-300 dark:bg-gray-700 dark:hover:bg-gray-600 rounded shadow-md">
-          {homeContent.hero.buttonText}
+          Get Started
         </button>
       </header>
 

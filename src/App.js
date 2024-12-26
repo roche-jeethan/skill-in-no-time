@@ -10,6 +10,7 @@ import Quiz from './components/Quiz';
 import Progress from './components/Progress';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import SignOut from './pages/SignOut';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/progress" element={<Progress />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/sign-out" element={<SignOut />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

@@ -40,6 +40,9 @@ const Navbar = ({ isHome }) => {
               <Link to="/profile" className="text-gray-700 hover:text-gray-900 dark:text-pale-orange">
                 Profile
               </Link>
+              <Link to="/" className="text-gray-700 hover:text-gray-900 dark:text-pale-orange">
+                Sign Out
+              </Link>
             </>
           )}
           <button onClick={toggleTheme} className="text-gray-700 hover:text-gray-900 dark:text-pale-orange">
